@@ -43,4 +43,4 @@ Bu tasarımda program aşağıdakileri yapacaktır:
 - En sonunda `ZCL_FILE` sınıfının `WRITE` metodunu çağırarak dosyayı oluşturacaktır.
 
 UML tasarımını da ekledim.
-Yeni tasarımını doğruluğu konusunda görüşlerinizi, tavsiyelerinizi rica ederim.
+Yeni tasarımın doğruluğu konusunda görüşlerinizi, tavsiyelerinizi rica ederim.
