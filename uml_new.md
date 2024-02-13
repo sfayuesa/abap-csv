@@ -4,7 +4,7 @@ title: CSV and File
 ---
 classDiagram
   class zif_csv{
-      + add_header(structure)
+      + set_header(structure)
       + add_row(structure)
       + add_rows(table)
       + serialize() string
@@ -16,13 +16,13 @@ classDiagram
   class zcl_csv {
       - string header  
       - table rows  
-      + add_header(structure)
+      + set_header(structure)
       + add_row(structure)
       + add_rows(table)
       + serialize() string
   }
   class zcl_file {
-      + factory(target) zif_file
+      + constructor(destination)
   }
   class zcl_local_file {
       + constructor(filename)
@@ -36,7 +36,6 @@ classDiagram
   }
 
   zif_csv <|-- zcl_csv : implements
-
   zif_file <|-- zcl_local_file : implements
   zif_file <|-- zcl_server_file : implements
   zcl_file <|-- zcl_local_file
