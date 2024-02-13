@@ -29,7 +29,7 @@ Yeni tasarımda iki arayüz var: `ZIF_CSV` ve `ZIF_FILE`.
 - `+serialize():string`
 
 `ZIF_FILE` şimdilik aşağıdaki yöntemlere sahiptir:
-- `+write(filename, content)`
+- `+write(content)`
 
 Yeni sınıflar aşağıdaki gibidir:
 - `ZIF_CSV` arayüzünü kullanan `ZCL_CSV` isminde yeni bir sınıf var. Aslında bu hemen hemen `ZCSV_BUILDER`'ın aynısı. Sadece arayüz kullanan ve 'verb' yerine 'noun' isimli versiyonu.
